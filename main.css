@@ -1,0 +1,177 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  background-color: peachpuff;
+  /* background-color: bisque; */
+  /* background: linear-gradient(#e66465, #ebf8e1, #9198e5); */
+  /* background-image:
+  url('https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80');
+  background-size:cover; */
+  margin-top: 48px;
+  color: #495057;
+}
+
+a {
+  color: #495057;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 247, 230);
+}
+
+#about, #skills, #projects, #experience, #contact, .education-container {
+  padding-top: 48px;
+}
+
+/* .about-container {
+  background-color: lightseagreen;
+  width: 100%;
+} */
+
+/* .border1 {
+  border: 1px solid lightgray;
+} */
+
+
+/* NAVBAR */
+
+.navbar-style {
+  background-color: #495057;
+}
+
+.navbar-brand-style {
+  color: rgb(255, 238, 203) !important;
+}
+
+.navbar-brand-style:hover {
+  color: peachpuff !important;
+}
+
+.nav-item-style {
+  color: papayawhip !important;
+}
+
+.nav-item-style:hover {
+  color: rgb(255, 164, 164) !important;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 238, 203);
+  height: 78vh;
+  text-align: center;
+}
+
+
+/* ABOUT */
+
+.profile-image {
+  max-width: 300px;
+}
+
+
+/* SKILLS */
+
+.icon-style {
+  font-size: 2.4rem;
+  padding-right: 0.5rem;
+}
+
+.soft-skills-list li {
+  font-size: 1.1rem;
+  padding: 5px 0;
+}
+
+
+/* PROJECTS */
+
+.project-button {
+  width: 160px;
+  font-size: 1rem;
+  background-color: rgb(255, 164, 164);
+  border: 1px #495057 solid;
+  box-shadow: 4px 4px 5px #495057;
+}
+
+.project-button:hover {
+  background-color: papayawhip;
+}
+
+.project-button-icon {
+  font-size: 1.3rem;
+}
+
+
+/* EXPERIENCE */
+
+@media screen and (min-width: 1200px) {
+  .experience-accordian-container {
+    max-width: 1100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .experience-heading {
+    min-width: 900px;
+  }
+}
+
+.education-item-container {
+  max-width: 800px;
+}
+
+.accordian-button-style {
+  background-color: rgb(255, 238, 203) !important;
+}
+
+.accordian-item-style {
+  background-color: rgb(255, 247, 230) !important;
+}
+
+/* CONTACT */
+
+.contact-icon-github {
+  font-size: 2.9rem;
+  padding: 0 1.5rem;
+}
+
+.contact-icon-linkedin {
+  font-size: 3rem;
+  padding: 0 1.5rem;
+}
+
+.contact-icon-email {
+  font-size: 3.1rem;
+  padding: 0 1.5rem;
+}
+
+
+/* FOOTER */
+
+footer {
+  margin-bottom: 2rem;
+}
+
+
+/* Notes on Bootstrap media breakpoints: */
+
+
+/* Extra small devices (portrait phones, less than 576px) have no media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* Medium devices (tablets, 768px and up) */
+
+/* Large devices (desktops, 992px and up) */
+
+/* Extra large devices (large desktops, 1200px and up) */
